@@ -1,0 +1,21 @@
+body{
+    background: #f5deb3;
+    background-blend-mode: lighten;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size:20px;
+    width: 600px;
+}
+* {
+   -ms-user-select: none;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
+
