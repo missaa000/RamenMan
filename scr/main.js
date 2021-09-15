@@ -402,7 +402,7 @@ function openingAnimation(){
 
 	else animationTimer = 0;
 
-	text("今日もラーメン屋は\n大忙し", textx, texty);
+	text("今日もラーメン屋は\n配達で大忙し", textx, texty);
     }
 
     if(textState == 2){
