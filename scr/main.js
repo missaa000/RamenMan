@@ -380,7 +380,7 @@ function openingAnimation(){
 	ellipse(width - animationTimer, 250, 200, 100);
 
 	textSize(25);
-	text("むかーしむかしあるところに...", textx, texty);
+	text("ここは喜多方市...", textx, texty);
 
 	animationTimer += 0.5;
 	if(animationTimer > 900) animationTimer = -700;
@@ -402,20 +402,20 @@ function openingAnimation(){
 
 	else animationTimer = 0;
 
-	text("ダイタンボウという\n巨人がいました", textx, texty);
+	text("今日もラーメン屋は\n大忙し", textx, texty);
     }
 
     if(textState == 2){
 	image(mountImg, 0, 0);
 	strokeWeight(1);
-	text("大変だ！目の前に大きな山が！\n今のダイタンボウでは山に\n打ち勝てない！", textx, texty);
+	text("大変だ！目の前に大きな山が！\nこのままでは\n出前のラーメンが！", textx, texty);
 	makingLine();	
     }
 
     if(textState == 3){
 	background(255, 255, 255);
 	strokeWeight(1);
-	text("あ！あれはねぎそばだ！\nねぎそばを食べて力をつけよう！", textx, texty);
+	text("あ！あれは喜多方ラーメンだ！\nラーメンを食べて力をつけよう！", textx, texty);
 	image(negisoba, 300, 200 + animationTimer);
 	makingLine();
 	animationTimer += 2;
