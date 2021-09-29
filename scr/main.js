@@ -139,8 +139,8 @@ function setup(){
     soba_i     = 0;
     rock_i     = 0;
     objspeed   = s_titan.speed;
-    obstacle   = [rock, sainokami, hougen];
-    nowObs     = rock;
+    obstacle   = [sainokami, hougen];
+    nowObs     = sainokami;
 
     //details
     gameState  = 6;
